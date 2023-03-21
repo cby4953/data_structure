@@ -26,6 +26,9 @@ public class Test {
         sortedLinkList.show();
         sortedLinkList.delete(7);
         System.out.println("---------");
+        sortedLinkList.update(10,"若离");
+        sortedLinkList.show();
+        sortedLinkList.update(11,"若云");
         sortedLinkList.show();
 
     }
