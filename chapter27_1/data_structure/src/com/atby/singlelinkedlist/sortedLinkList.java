@@ -47,7 +47,18 @@ public class sortedLinkList {
         }
     }
 
-    public void update(int old_,int new_){
+    public void update(int old_,String name){
+
+        heroNode temp=headNode;
+        while (temp.getNext() != null){
+            if (temp.getNext().getId() == old_){
+                temp.getNext().setName(name);
+                return;
+            }else {
+                temp=temp.getNext();
+            }
+        }
+        System.out.println("链表不存在id为"+old_+"的元素,无法修改");
 
     }
 
