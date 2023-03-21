@@ -9,13 +9,6 @@ public class Test {
         heroNode hero03 = new heroNode(7, "狂澜");
         heroNode hero04 = new heroNode(5, "孙尚香");
 
-//        linkList linklist = new linkList();
-//        linklist.add(hero01);
-//        linklist.add(hero02);
-//        linklist.add(hero03);
-//
-//        linklist.show();
-
         sortedLinkList sortedLinkList = new sortedLinkList();
         sortedLinkList.add(hero01);
         sortedLinkList.add(hero02);
